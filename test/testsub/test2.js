@@ -1,4 +1,5 @@
 var assert = require('assert');
+//Add --recursive to packagejson to include subfolder tests
 describe('Array', function () {
     describe('#indexOf()', function () {
         it('should return -1 when the value is not present', function () {

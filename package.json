@@ -4,7 +4,7 @@
   "description": "AML exercise",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive",
+    "test": "mocha",
     "prepare": "husky install"
   },
   "author": "",
