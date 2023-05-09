@@ -1,0 +1,16 @@
+{
+  "name": "learn_husky",
+  "version": "1.0.0",
+  "description": "AML exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "prepare": "husky install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "mocha": "^10.2.0"
+  }
+}
