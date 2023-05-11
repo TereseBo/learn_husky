@@ -44,6 +44,9 @@ class Calculator {
   getResult() {
     return this.calculatorResult;
   }
+  getPreviousResult() {
+    return this.previousResult; 
+  }
 
   storePreviousResult() {
     this.previousResult = this.calculatorResult;
