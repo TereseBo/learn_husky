@@ -1,30 +1,61 @@
 const assert = require('assert');
+const { Calculator } = require('../src/calculator');
 
-describe('Array', function () {
-  describe('#indexOf()', function () {
-    it('should return -1 when the value is not present', function () {
-      assert.equal([1, 2, 3].indexOf(4), -1);
-    });
-
-    it('should return 2 when the value is at index 2', function () {
-      assert.equal([1, 2, 3].indexOf(3), 2);
-    });
-
-    it.skip('This test is pending', function () {
-      assert.equal([1, 2, 3].indexOf(3), 2);
+describe('Calculator ', function () {
+  let calc;
+  beforeEach(function () {
+    calc = new Calculator();
+    this.retries(2);
+  });
+  describe('getResult()', function () {
+    it('should return 0 when the calculator is created', function () {
+      assert.equal(calc.getResult(), 0);
     });
   });
-  describe('bob', function () {
-    it('should return -1 when the value is not present', function () {
-      assert.equal([1, 2, 3].indexOf(4), -1);
+
+  describe('clearAll()', function () {
+    it('should return 0 when the calculator is cleared after add()', function () {
+      calc.add(5);
+      assert.equal(calc.getResult(), 5);
+      calc.clearAll();
+      assert.equal(calc.getResult(), 0);
     });
 
-    it('should return 2 when the value is at index 2', function () {
-      assert.equal([1, 2, 3].indexOf(3), 2);
+    it('should return 0 when the calculator is cleared after add<89 and multiply()', function () {
+      calc.add(5);
+      calc.multiply(5);
+      assert.equal(calc.getResult(), 25);
+      calc.clearAll();
+      assert.equal(calc.getResult(), 0);
+    });
+  });
+
+  describe('clear', function () {
+    it('should return previous value of result', function () {
+      const previous = calc.getResult();
+      calc.add(5);
+      assert.equal(calc.getResult(), 5);
+      calc.clear();
+      assert.equal(calc.getResult(), previous);
     });
 
-    it.skip('This test is pending', function () {
-      assert.equal([1, 2, 3].indexOf(3), 2);
+    it('should return previous value of result after add and multiply', function () {
+      calc.add(5);
+      const previous = calc.getResult();
+      calc.multiply(5);
+      assert.equal(calc.getResult(), 25);
+      calc.clear();
+      assert.equal(calc.getResult(), previous);
+    });
+
+    it('should return previous value after cleareAll()', function () {
+      calc.add(5);
+      assert.equal(calc.getResult(), 5);
+      calc.clearAll();
+      assert.equal(calc.getResult(), 0);
+
+      calc.clear();
+      assert.equal(calc.getResult(), 5);
     });
   });
 });

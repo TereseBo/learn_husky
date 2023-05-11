@@ -10,7 +10,7 @@ describe('Array', function () {
       assert.equal([1, 2, 3].indexOf(3), 2);
     });
 
-    it.skip('This test is pending', function () {
+    it('This test is pending', function () {
       assert.equal([1, 2, 3].indexOf(3), 2);
     });
   });
