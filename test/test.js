@@ -48,6 +48,15 @@ describe('Calculator ', function () {
       assert.equal(calc.getResult(), previous);
     });
 
+    it('should return previous value of result after multiple add and multiply', function () {
+      calc.add(5);
+      calc.multiply(5);
+      const previous = calc.getResult();
+      calc.add(5);
+      calc.clear();
+      assert.equal(calc.getResult(), previous);
+    });
+
     it('should return previous value after cleareAll()', function () {
       calc.add(5);
       assert.equal(calc.getResult(), 5);

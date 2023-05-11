@@ -3,4 +3,5 @@
 
 echo "hello world"
 npm test
+npm run lint-fix
 
