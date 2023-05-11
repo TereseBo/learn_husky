@@ -1,4 +1,4 @@
-name: Pipeline
+name: reports
 
 on:
   pull_request:
