@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-05-11T12:01:49.071Z",
+    "end": "2023-05-11T12:01:49.076Z",
+    "duration": 5
+  },
+  "tests": [
+    {
+      "title": "should return 0 when the calculator is created",
+      "fullTitle": "Calculator  getResult() should return 0 when the calculator is created",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 0 when the calculator is cleared after add()",
+      "fullTitle": "Calculator  clearAll() should return 0 when the calculator is cleared after add()",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 0 when the calculator is cleared after add<89 and multiply()",
+      "fullTitle": "Calculator  clearAll() should return 0 when the calculator is cleared after add<89 and multiply()",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return previous value of result",
+      "fullTitle": "Calculator  clear should return previous value of result",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return previous value of result after add and multiply",
+      "fullTitle": "Calculator  clear should return previous value of result after add and multiply",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return previous value after cleareAll()",
+      "fullTitle": "Calculator  clear should return previous value after cleareAll()",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should return 0 when the calculator is created",
+      "fullTitle": "Calculator  getResult() should return 0 when the calculator is created",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 0 when the calculator is cleared after add()",
+      "fullTitle": "Calculator  clearAll() should return 0 when the calculator is cleared after add()",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 0 when the calculator is cleared after add<89 and multiply()",
+      "fullTitle": "Calculator  clearAll() should return 0 when the calculator is cleared after add<89 and multiply()",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return previous value of result",
+      "fullTitle": "Calculator  clear should return previous value of result",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return previous value of result after add and multiply",
+      "fullTitle": "Calculator  clear should return previous value of result after add and multiply",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return previous value after cleareAll()",
+      "fullTitle": "Calculator  clear should return previous value after cleareAll()",
+      "file": "C:\\Users\\Adam\\Desktop\\VSc\\Program T2\\ALM\\learn_husky\\test\\test.js",
+      "duration": 0,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
