@@ -1,4 +1,4 @@
-name: Run Jest tests
+name: Pipeline
 
 on:
   pull_request:
